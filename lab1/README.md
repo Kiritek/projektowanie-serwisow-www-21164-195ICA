@@ -1,1 +1,1 @@
-![Strona Domowa](/assets/home.jpg)
+![Strona Domowa](https://github.com/Kiritek/projektowanie-serwisow-www-21164-195ICA/blob/main/lab1/assets/home.jpg)
