@@ -1,1 +1,1 @@
-Laboratorium 1
+![Strona Domowa](/assets/home.jpg)
