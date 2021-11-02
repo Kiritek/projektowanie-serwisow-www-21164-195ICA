@@ -27,5 +27,8 @@ function createForm(){
     document.getElementById("pick3summary").appendChild(document.createTextNode(": "+pick3))
     document.getElementById("pick4summary").appendChild(document.createTextNode(": "+pick4))
     document.getElementById("pick5summary").appendChild(document.createTextNode(": "+pick5))
-}
-   
+
+
+
+
+}   
