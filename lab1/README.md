@@ -13,6 +13,12 @@ Na tej stronie mamy kilka pól do wypełnienia w celu zapisania się na fikcyjn�
 ![Strona z formularzem1](https://github.com/Kiritek/projektowanie-serwisow-www-21164-195ICA/blob/main/lab1/assets/formularzpozatwierdzeniu.jpg)
 Po kliknięciu zatwierdź nasze informacje zostaną wyświetlone poniżej a przycisk zarejestruj zostaje schowany.
 
+# Strony po modyfikacjach do lab2.
 
-
+## Strona z listem
+![Strona z listem](https://github.com/Kiritek/projektowanie-serwisow-www-21164-195ICA/blob/main/lab1/assets/listpozmianach.png)
+## Strona z formularzem przed zatwierdzeniem
+![Strona z formularzem1](https://github.com/Kiritek/projektowanie-serwisow-www-21164-195ICA/blob/main/lab1/assets/formularzpozmianach.png)
+## Strona z formularzem po zatwierdzeniu
+![Strona z formularzem1](https://github.com/Kiritek/projektowanie-serwisow-www-21164-195ICA/blob/main/lab1/assets/formularzprzeslanypozmianach.png)
 
