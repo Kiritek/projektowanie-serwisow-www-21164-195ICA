@@ -8,6 +8,8 @@
 "use strict";
 document.body.style.backgroundColor = "#FFF59E";
 document.body.style.fontFamily = "Georgia";
+
+
 document.body.style.fontSize = "110%";
 document.getElementById("formimage").style.filter="grayscale(100%)";
 let formbutton = document.getElementById("formbutton");
@@ -49,5 +51,51 @@ function CreateForm(){
     formsummary.style.opacity="70%";
     formsummary.style.textDecoration="underline";
     formsummary.style.textShadow="1px 1px blue";
-
+    
+    formsummary.addEventListener("mouseenter",mouseEnterControl);
 }   
+
+document.addEventListener("copy",copyFunction);
+document.addEventListener("scroll", recolorImage);
+window.addEventListener("resize",resizeControl);
+window.addEventListener("dblclick",doubleClickControl);
+document.addEventListener("offline",offlineControl);
+document.getElementById("formimage").addEventListener("dragstart", imageDragControl);
+document.getElementById("formimage").addEventListener("dragend", imageDragEndControl);
+document.addEventListener("cut",cutControl);
+document.getElementById("formbutton").addEventListener("contextmenu", contextMenuControl)
+document.addEventListener("click",clickControl)
+function copyFunction(){
+    alert("Copying complete!");
+}
+function recolorImage(){
+    document.getElementById("formimage").style.filter="grayscale(10%)";
+    document.removeEventListener("scroll", recolorImage);
+}
+function resizeControl(){
+    document.body.style.fontSize = "300%";
+}
+function offlineControl(){
+    alert("You are offline now");
+}
+function doubleClickControl(){
+    document.body.style.backgroundColor = "red";
+}
+function imageDragControl(){
+    formbutton.className  = "btn btn-primary";
+}
+function imageDragEndControl(){
+    formbutton.className  = "btn btn-secondary";
+}
+function cutControl(){
+    alert("That hurt");
+}
+function contextMenuControl(){
+    document.body.style.fontFamily = "Comic Sans MS";
+}
+function clickControl(){
+    document.body.style.opacity="80%";
+}
+function mouseEnterControl(){
+    document.getElementById("formsummaryid").style.backgroundColor = "lightblue";
+}
