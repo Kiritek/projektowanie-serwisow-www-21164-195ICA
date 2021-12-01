@@ -78,6 +78,49 @@ Dodanie podkreślenia tekstu.
 
 Dodanie cienia do tekstu.
 
+# Zadania do Lab3
 
+## Zadania wprawki
 
+### Zadanie 2 tablice Obrazek
 
+![obrazek](https://github.com/Kiritek/projektowanie-serwisow-www-21164-195ICA/blob/main/lab1/assets/Zadanie2Obrazek.png)
+
+### Wyniki Zadań z pliku 3 tablice
+
+![uzytkownicy](https://github.com/Kiritek/projektowanie-serwisow-www-21164-195ICA/blob/main/lab1/assets/Zadanie3Users.png)
+
+### Wyniki Zadań z pliku 4 tablice
+
+![miasta](https://github.com/Kiritek/projektowanie-serwisow-www-21164-195ICA/blob/main/lab1/assets/Zadanie4Cities.png)
+
+![miasta2](https://github.com/Kiritek/projektowanie-serwisow-www-21164-195ICA/blob/main/lab1/assets/Zadanie4Cities2.png)
+
+### Wyniki Zadań z pliku 5 tablice
+
+![kraje](https://github.com/Kiritek/projektowanie-serwisow-www-21164-195ICA/blob/main/lab1/assets/Zadanie5Panstwa.png)
+
+## Zadania z event listenerami
+![eventlistener](https://github.com/Kiritek/projektowanie-serwisow-www-21164-195ICA/blob/main/lab1/assets/EventListner1.png)
+
+Przy kopiowaniu wyskakuje okienko z komunikatem.
+
+Przy scrollowaniu kolor obrazka jest przywrócony z odcieni szarego na kolorowy.
+
+Przy zmianie przybliżenia strony tekst jest powiększany trzykrotnie.
+
+Przy kliknięciu na stronie przeźroczystość strony jest ustawiana na 80%.
+
+Przy podwójnym kliknięciu na stronie kolor strony zmieniany jest na czerwony.
+
+Przy kliknięciu prawym przyciskiem myszy na przycisku zatwierdź czcionka zmienia się na comic sans.
+
+Przy rozpoczęciu przeciagania obrazka przycisk zatwierdzenia zmienia kolor na niebieski poprzez zmianę klasy.
+
+Po zakończeniu przeciągania obrazka kolor wraca do stanu poprzedniego.
+
+Przy wycinaiu wyskakuje okienko z komunikatem.
+
+![eventlistener2](https://github.com/Kiritek/projektowanie-serwisow-www-21164-195ICA/blob/main/lab1/assets/EventListner2.png)
+ 
+ Przy najechaniu na podsumowanie formularza jego kolor jest zmieniany na jasnoniebieski. 
