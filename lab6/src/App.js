@@ -63,7 +63,6 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <div className="header">{this.props.title}</div>
         <CardForm onSubmit={this.addNewProfile} />
         <CardList profiles={this.state.profiles} />
       </div>
