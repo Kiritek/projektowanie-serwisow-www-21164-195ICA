@@ -22,3 +22,7 @@ Komponent klasowy. Używam stanu do przechowywania wartości nazwy użytkownika 
 ![nua](https://github.com/Kiritek/projektowanie-serwisow-www-21164-195ICA/blob/main/lab6/assets/App.png)
 
 Komponent klasowy który wykorzystuje stan do przechowywania profili użytkowników. Przy wywołaniu funkcji przy pomocy danych uzyskanych z formularza dodaje nowy profil do stanu wykorzystując operator spread dla oznaczenia poprzednich profili i nowego. Tworzy on dwa komponenty potomne CardForm i CardList do pierwszego przesyła funkcje poprzez props a do drugiego profile również poprzez props.
+## CSS
+![nua](https://github.com/Kiritek/projektowanie-serwisow-www-21164-195ICA/blob/main/lab6/assets/Card%20css.png)
+
+Jako że praktycznie wszystkie komponenty mają swój css to załączyłem fragment tego który dotyczy kart wyswietlajacych informacje. Skupia się głównie na poprawnym dopasowaniu obrazka do reszty informacji, wyróżnienia tekstu i dodaniu lekko zaokrągonej ramki
