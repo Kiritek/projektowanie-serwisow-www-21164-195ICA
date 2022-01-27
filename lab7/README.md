@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+# Lab7
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Kod routingu
+![nua](https://github.com/Kiritek/projektowanie-serwisow-www-21164-195ICA/blob/main/lab7/assets/routerkod.png)
 
-## Available Scripts
+Do routingu użyłem react-routera w wersji 6. Komponenty poszczególnych stron są zagnieżdżone w komponencie app który robi za navbar.
 
-In the project directory, you can run:
+### Navbar w App
+![wl](https://github.com/Kiritek/projektowanie-serwisow-www-21164-195ICA/blob/main/lab7/assets/appkod.png)
 
-### `npm start`
+Znajdują się tu linki do poszczególnych stron. Outlet służy po to by tylko navbar pokazywał się na stronach zamiast zakrywać je. Wykorzystałem tutaj bilbioteke styled-components żeby pozbyć się stylu linków z react-routera.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### GameForm
+![nua](https://github.com/Kiritek/projektowanie-serwisow-www-21164-195ICA/blob/main/lab7/assets/gameform.png)
+![nua](https://github.com/Kiritek/projektowanie-serwisow-www-21164-195ICA/blob/main/lab7/assets/fragment%20forma.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+W formularzu do zapisów użyłem react bootstrapa do stworzenia forma i jego prezentacji. Dodatkowo z MUI użyłem przycisków, grup przycisków, i dropdowna z autocomplete dodatkowo został wykorzystnay TextField również z MUI.
 
-### `npm test`
+### Playerlist
+![nua](https://github.com/Kiritek/projektowanie-serwisow-www-21164-195ICA/blob/main/lab7/assets/playerlist.png)
+![wl](https://github.com/Kiritek/projektowanie-serwisow-www-21164-195ICA/blob/main/lab7/assets/playerlistkod.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+W komponencie playerlist wykorzystałem komponenty Box, Avatar i 2 ikonki z icons-material z MUI.
 
-### `npm run build`
+### GameGallery
+![nua](https://github.com/Kiritek/projektowanie-serwisow-www-21164-195ICA/blob/main/lab7/assets/gamegallery.png)
+![wl](https://github.com/Kiritek/projektowanie-serwisow-www-21164-195ICA/blob/main/lab7/assets/gamegallerykod.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+W galieri obrazów wykorzystałem komponenty Grid,Rating i Typography z MUI
