@@ -1,0 +1,32 @@
+
+  .player-profile {
+    border-radius: 5px;
+      margin: 1rem;
+    border: thin solid lightslategray;
+    background-color: lightslategray;
+    justify-content: center;
+    margin:auto;
+    margin-top: 15px;
+    width: 30%;
+  }
+  .avatar-profile{
+    margin: 0%;
+    margin-left: 40%;
+    padding: 0%;
+  }
+  
+  .info {
+    display: inline-block;
+    margin-left: 12px;
+  }
+  .nickname {
+    font-size: 1.25rem;
+    font-weight: lighter;
+    color: whitesmoke;
+
+  }
+  .country{
+      font-size: 1.1rem;
+      font-weight: lighter;
+      color: whitesmoke;
+  }
