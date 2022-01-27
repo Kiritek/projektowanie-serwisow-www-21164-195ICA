@@ -1,55 +1,46 @@
-# Snap Shot [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=See%20this%20react%20example&url=https://yog9.github.io/SnapShot/&hashtags=react,context-api,freecodecamp,developers)
+# Lab8 React - aplikacja nr 3 + analiza kodu źródłowego + git difftool
+Aplikacja oparta jest o repozytorium https://github.com/Yog9/SnapShot
 
-[![Build Status](https://travis-ci.org/Yog9/SnapShot.svg?branch=master)](https://travis-ci.org/Yog9/SnapShot)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![HitCount](http://hits.dwyl.com/Yog9/SnapShot.svg)](http://hits.dwyl.com/Yog9/SnapShot)
+## Analiza kodu źródłowego z komentarzami i zmiany.
 
-[Demo of Snap Shot](https://yog9.github.io/SnapShot/)
+### App
+![nua](https://github.com/Kiritek/projektowanie-serwisow-www-21164-195ICA/blob/main/lab8/assets/app1.png)
 
-![](/snapscout.png)
+![wl](https://github.com/Kiritek/projektowanie-serwisow-www-21164-195ICA/blob/main/lab8/assets/app2.png)
 
-### Summary
+### Photocontext
 
-Snap Shot is a gallery created using React,React Hooks, React Router and Context API. The Routes were setup for four default pages and a search page. Also the images were displayed using the Flickr API and axios to fetch data.
+![wl](https://github.com/Kiritek/projektowanie-serwisow-www-21164-195ICA/blob/main/lab8/assets/photocontext.png)
 
-### Motivation
+### Container
+![nua](https://github.com/Kiritek/projektowanie-serwisow-www-21164-195ICA/blob/main/lab8/assets/container.png)
 
-The purpose of this project was to get familiar with React Hooks and Context API.
+### Form
+![nua](https://github.com/Kiritek/projektowanie-serwisow-www-21164-195ICA/blob/main/lab8/assets/form.png)
 
-### Getting Started
+### Gallery
+![nua](https://github.com/Kiritek/projektowanie-serwisow-www-21164-195ICA/blob/main/lab8/assets/gallery.png)
 
-Click the demo link or clone/download the repository on your local machine.
-Create a config.js file in api folder inside src folders. In config.js file write
-`export const apiKey = "YOUR_FLIKR_API_KEY";`
+### Header
+![wl](https://github.com/Kiritek/projektowanie-serwisow-www-21164-195ICA/blob/main/lab8/assets/header.png)
 
-##### Install dependencies
+### Image
+![wl](https://github.com/Kiritek/projektowanie-serwisow-www-21164-195ICA/blob/main/lab8/assets/image.png)
 
-`yarn install`
+### Item 
+![wl](https://github.com/Kiritek/projektowanie-serwisow-www-21164-195ICA/blob/main/lab8/assets/item.png)
 
-##### Run Snap Shot from the root directory.
+### Loader
+![wl](https://github.com/Kiritek/projektowanie-serwisow-www-21164-195ICA/blob/main/lab8/assets/loader.png)
 
-`yarn start`
+### Navigation
+![wl](https://github.com/Kiritek/projektowanie-serwisow-www-21164-195ICA/blob/main/lab8/assets/navigation.png)
 
-### Built With
+### Search
+![wl](https://github.com/Kiritek/projektowanie-serwisow-www-21164-195ICA/blob/main/lab8/assets/search.png)
 
-- React js
-- React Router
-- React Hooks
-- Context API
-- Flickr API
+### NoImages
+![wl](https://github.com/Kiritek/projektowanie-serwisow-www-21164-195ICA/blob/main/lab8/assets/NoImages.png)
 
-### Features
-
-**1. Responsive Design.**
-
-**2. Search functionality added to search photos from API.**
-
-### Coming Soon
-
-- [ ] Cypress E2E Tests
-
-### Contributing
-
-Everyone is welcomed to contribute to this project. You can contribute either by submitting bugs or suggesting improvements by opening an issue on GitHub. Please see the [CONTRIBUTING](CONTRIBUTING.md) guidelines for more information.
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## NotFound
+![wl](https://github.com/Kiritek/projektowanie-serwisow-www-21164-195ICA/blob/main/lab8/assets/Notfound.png)
