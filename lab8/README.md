@@ -42,5 +42,16 @@ Aplikacja oparta jest o repozytorium https://github.com/Yog9/SnapShot
 ### NoImages
 ![wl](https://github.com/Kiritek/projektowanie-serwisow-www-21164-195ICA/blob/main/lab8/assets/NoImages.png)
 
-## NotFound
+### NotFound
 ![wl](https://github.com/Kiritek/projektowanie-serwisow-www-21164-195ICA/blob/main/lab8/assets/Notfound.png)
+
+## Narzędzie difftool pokazujące zmiany
+
+### Difftool Gallery
+![wl](https://github.com/Kiritek/projektowanie-serwisow-www-21164-195ICA/blob/main/lab8/assets/gallerydif.png)
+
+### Difftool Form
+![wl](https://github.com/Kiritek/projektowanie-serwisow-www-21164-195ICA/blob/main/lab8/assets/formgitdiff.png)
+
+### Difftool Photocontext
+![wl](https://github.com/Kiritek/projektowanie-serwisow-www-21164-195ICA/blob/main/lab8/assets/photocontextdiff.png)
